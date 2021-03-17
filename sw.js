@@ -6,17 +6,17 @@ const DYNAMIC_CACHE     = 'dynamic-v1';
 const INMUTABLE_CACHE   = 'inmutable-v1';
 
 const APP_SHELL = [
-    '/',
-    '/index.html',
-    '/assets/css/style.css',
-    '/assets/img/favicon.ico',
-    '/assets/img/avatars/hulk.jpg',
-    '/assets/img/avatars/ironman.jpg',
-    '/assets/img/avatars/spiderman.jpg',
-    '/assets/img/avatars/thor.jpg',
-    '/assets/img/avatars/wolverine.jpg',
-    '/assets/js/app.js',
-    '/assets/js/sw-utils.js'
+    // '/',
+    'index.html',
+    'assets/css/style.css',
+    'assets/img/favicon.ico',
+    'assets/img/avatars/hulk.jpg',
+    'assets/img/avatars/ironman.jpg',
+    'assets/img/avatars/spiderman.jpg',
+    'assets/img/avatars/thor.jpg',
+    'assets/img/avatars/wolverine.jpg',
+    'assets/js/app.js',
+    'assets/js/sw-utils.js'
 ];
 
 const APP_SHELL_INMUTABLE = [
